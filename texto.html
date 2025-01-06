@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            animation: fade 5s infinite ease-in-out;
+        }
+        p{
+            text-align: center;
+            justify-items: center;
+            max-width: 60%;
+        }
+        @keyframes fade {
+            0%{
+                opacity: 0;
+            }
+            60%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        .logoo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            position: absolute;
+            bottom: 40px;
+            left: 46%;
+            gap: 100px;
+        }
+        .logoo img{
+           
+            width: 120px;
+            
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            window.location.href = "main.html";
+        }, 5000);
+    </script>
+</head>
+<body>
+    <h1>Sendoza Team</h1>
+    <p>Sendoza Development Team
+Welcome to the official website of the Sendoza Development Team, a passionate group of creators led by our visionary leader, Naniko. We specialize in crafting innovative and immersive experiences for anime enthusiasts.
+
+Our current project, [Project Name Here], aims to redefine storytelling by merging stunning visuals, compelling narratives, and cutting-edge technology to create an anime experience like no other.
+
+Stay tuned as we bring this exciting journey to life!</p>
+<div class="logoo">
+<img class="imgg" src="logo.png" alt="">
+<img style="width: 210px;" class="" src="alogo.png" alt="">
+</div>
+</body>
+</html>
